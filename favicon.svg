@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 70" width="64" height="64" fill="none">
+  <defs>
+    <linearGradient id="chairGold" x1="0" y1="0" x2="80" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b6914"/>
+      <stop offset="40%" stop-color="#e8c97a"/>
+      <stop offset="100%" stop-color="#c9a84c"/>
+    </linearGradient>
+  </defs>
+  <!-- Back -->
+  <path d="M18 10 Q40 4 62 10 L58 40 Q40 36 22 40 Z" fill="url(#chairGold)" opacity="0.9"/>
+  <!-- Seat -->
+  <path d="M14 40 Q40 35 66 40 L62 52 Q40 48 18 52 Z" fill="url(#chairGold)"/>
+  <!-- Left arm -->
+  <path d="M10 30 Q12 25 18 26 L22 42 Q12 44 10 40 Z" fill="url(#chairGold)" opacity="0.8"/>
+  <!-- Right arm -->
+  <path d="M70 30 Q68 25 62 26 L58 42 Q68 44 70 40 Z" fill="url(#chairGold)" opacity="0.8"/>
+  <!-- Left leg -->
+  <line x1="20" y1="52" x2="16" y2="66" stroke="#c9a84c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Right leg -->
+  <line x1="60" y1="52" x2="64" y2="66" stroke="#c9a84c" stroke-width="3" stroke-linecap="round"/>
+  <!-- Center leg -->
+  <line x1="40" y1="52" x2="40" y2="66" stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Tufting dots on back -->
+  <circle cx="30" cy="22" r="1.5" fill="#0d0b08" opacity="0.5"/>
+  <circle cx="40" cy="20" r="1.5" fill="#0d0b08" opacity="0.5"/>
+  <circle cx="50" cy="22" r="1.5" fill="#0d0b08" opacity="0.5"/>
+  <circle cx="35" cy="30" r="1.5" fill="#0d0b08" opacity="0.4"/>
+  <circle cx="45" cy="30" r="1.5" fill="#0d0b08" opacity="0.4"/>
+</svg>
